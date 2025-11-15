@@ -2,6 +2,7 @@
 
 這個專案實作 **Local Binary Patterns (LBP)** 演算法，使用 **Verilog HDL** 於硬體電路上完成影像從 **RGB → Gray → LBP** 的完整資料流處理。
 LBP 是一種常見的影像特徵擷取方法，常用於臉部識別、紋理分類與影像分析中。
+![Uploading image.png…]()
 
 ---
 
