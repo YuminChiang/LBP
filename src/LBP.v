@@ -1,4 +1,3 @@
-
 `timescale 1ns/10ps
 module LBP (
     input         	  clk       ,
@@ -95,15 +94,15 @@ always @(posedge clk or posedge reset) begin
 			LBP: begin
 				lbp_valid <= 1;
 				lbp_addr <= lbp_addr_cnt;
-				g0 = gray_mem[lbp_addr_cnt - 129];
-                g1 = gray_mem[lbp_addr_cnt - 128];
-                g2 = gray_mem[lbp_addr_cnt - 127];
-                g3 = gray_mem[lbp_addr_cnt - 1];
-                gc = gray_mem[lbp_addr_cnt];
-                g4 = gray_mem[lbp_addr_cnt + 1];
-                g5 = gray_mem[lbp_addr_cnt + 127];
-                g6 = gray_mem[lbp_addr_cnt + 128];
-                g7 = gray_mem[lbp_addr_cnt + 129];
+				g0 <= gray_mem[lbp_addr_cnt - 129];
+                g1 <= gray_mem[lbp_addr_cnt - 128];
+                g2 <= gray_mem[lbp_addr_cnt - 127];
+                g3 <= gray_mem[lbp_addr_cnt - 1];
+                gc <= gray_mem[lbp_addr_cnt];
+                g4 <= gray_mem[lbp_addr_cnt + 1];
+                g5 <= gray_mem[lbp_addr_cnt + 127];
+                g6 <= gray_mem[lbp_addr_cnt + 128];
+                g7 <= gray_mem[lbp_addr_cnt + 129];
 				lbp_data <= ((g0 >= gc) ? 8'd1 : 8'd0)   +
                          	((g1 >= gc) ? 8'd2 : 8'd0)   +
                             ((g2 >= gc) ? 8'd4 : 8'd0)   +
