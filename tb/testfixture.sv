@@ -2,9 +2,9 @@
 `define CYCLE      10          	  // Modify your clock period here
 `define End_CYCLE  100000000      // Modify cycle times once your design need more cycle times!
 
-`define RGB        "./RGB.dat"    
-`define Gray       "./gray.dat"     
-`define LBP        "./LBP.dat"     
+`define RGB        "data/RGB.dat"    
+`define Gray       "data/gray.dat"     
+`define LBP        "data/LBP.dat"     
 
 
 module testfixture;
