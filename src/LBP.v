@@ -16,7 +16,12 @@ module LBP (
 );
 
 // State Definition
-parameter IDLE = 3'd0, REQ = 3'd1, GRAY = 3'd2, GET_GC = 3'd3, LBP = 3'd4, DONE = 3'd5;
+parameter IDLE = 3'd0	, 
+		  REQ = 3'd1	, 
+		  GRAY = 3'd2	, 
+		  GET_GC = 3'd3	, 
+		  LBP = 3'd4	, 
+		  DONE = 3'd5	;
 
 reg [2:0] cs, ns;
 
