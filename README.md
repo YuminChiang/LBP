@@ -1,4 +1,4 @@
-# Local Binary Pattern (LBP) — Verilog/SystemVerilog Implementation
+# Local Binary Pattern (LBP) — Verilog Implementation
 
 This project implements the **Local Binary Patterns (LBP)** algorithm in hardware using **Verilog**. It processes images through a full pipeline: **RGB → Gray → LBP**.  
 LBP is a popular image feature extraction method widely used in face recognition, texture classification, and image analysis.
