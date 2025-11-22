@@ -13,9 +13,7 @@ LBP is a popular image feature extraction method widely used in face recognition
 
 Below is a demonstration of the image pipeline:
 
-| RGB Image | Grayscale | LBP Output |
-|:-:|:-:|:-:|
-|![image](https://github.com/YuminChiang/LBP/blob/main/assets/image.png)|
+![image](https://github.com/YuminChiang/LBP/blob/main/assets/image.png)
 
 **(Left)** Original RGB image  
 **(Center)** Grayscale conversion  
